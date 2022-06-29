@@ -130,11 +130,16 @@ a, href {
 #alertbanner {
     width: inherit;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 15px 50px;
     background-color: var(--alert);
     color: var(--white100);
+}
+
+.svg-alert {
+    margin-right: 10px;
 }
 
 /* Nav */
