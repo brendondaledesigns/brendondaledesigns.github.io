@@ -10,6 +10,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    /*outline: 1px solid red;*/          /*This outlines everything*/
 }
 
 body {
@@ -217,12 +218,14 @@ a, href {
     flex-direction: column;
     align-items: flex-start;
     max-width: 60ch;
+    margin: 15px;
 }
 
 #about-right {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 15px;
 }
 
 #about-image {
