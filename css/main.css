@@ -41,6 +41,24 @@ p3 {
     font-size: 1.125rem;
 }
 
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3.75rem;
+    }
+    h2 {
+        font-size: 2.75rem;
+    }
+    p1 {
+        font-size: 1.25rem;
+    }
+    p2 {
+        font-size: 1.15rem;
+    }
+    p3 {
+        font-size: 1rem;
+    }
+}
+
 .italic {
     font-style: italic;
 }
@@ -65,6 +83,10 @@ a, href {
 /* Modifiers */
 .accent-color {
     color: var(--purple100);
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 /* Margins */
@@ -190,18 +212,18 @@ a, href {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     transition: ease-in-out 250ms;
 }
 .portfolio-item:hover {
     width: 315px;
     height: 315px;
-    opacity: .97;
+    filter: brightness(1.1);
 }
 
 .portfolio-item>* {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 /* About */
