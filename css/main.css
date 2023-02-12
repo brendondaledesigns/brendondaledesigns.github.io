@@ -1,15 +1,15 @@
 :root {
-    --clr-background:#ffffff;
-    --clr-primary100:#ffffff;
-    --clr-secondary100:#1C1C1C;
-    --clr-accent100:#4200FF;
-    --clr-alert:#e92a2a;
-}
-.darkmode {
     --clr-background:#111111;
     --clr-primary100:#ffffff;
     --clr-secondary100:#ffffff;
     --clr-accent100:#7b4bff;
+    --clr-alert:#e92a2a;
+}
+.lightmode {
+    --clr-background:#ffffff;
+    --clr-primary100:#ffffff;
+    --clr-secondary100:#1C1C1C;
+    --clr-accent100:#4200FF;
     --clr-alert:#e92a2a;
 }
 
@@ -208,19 +208,6 @@ a, href {
         align-items: center;
         padding: 15px 25px;
     }
-}
-
-#dark-mode-toggle {
-    background-color: transparent;
-    border-style: hidden;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dark-mode-icon {
-    fill: var(--clr-secondary100);
 }
 
 /* ~~ Main Container ~~ */
