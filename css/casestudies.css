@@ -1,5 +1,5 @@
 :root {
-    --clr-background:#111111;
+    --clr-background:#1e1d20;
     --clr-primary100:#ffffff;
     --clr-secondary100:#ffffff;
     --clr-accent100:#7b4bff;
@@ -31,6 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 100px;
 }
 
 /* Fonts */
@@ -39,6 +40,9 @@ h1 {
 }
 h2 {
     font-size: 3rem;
+}
+h3 {
+    font-size: 1.25rem;
 }
 p1 {
     font-size: 1.5rem;
@@ -52,10 +56,13 @@ p3 {
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 3.75rem;
+        font-size: 3rem;
     }
     h2 {
         font-size: 2.75rem;
+    }
+    h3 {
+        font-size: 1rem;
     }
     p1 {
         font-size: 1.25rem;
@@ -237,6 +244,7 @@ a, href {
     flex-direction: column;
     align-items: center;
     width: 90%;
+    gap: 75px;
 }
 
 /* Hero */
