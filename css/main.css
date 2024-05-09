@@ -1,5 +1,5 @@
 :root {
-    --clr-background:#1e1d20;
+    --clr-background:#171618;
     --clr-primary100:#ffffff;
     --clr-secondary100:#ffffff;
     --clr-accent100:#7b4bff;
@@ -251,6 +251,7 @@ a, href {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
+    justify-content: center;
 }
 
 .portfolio-item {
@@ -264,22 +265,23 @@ a, href {
     transition: ease-in-out 250ms;
     position: relative;
     overflow: hidden;
+    border-radius: 6px;
 }
 @media only screen and (max-width: 600px) {
     .portfolio-item {
         width: 250px;
-        height: 250px;
+        height: auto;
     }
 }
 .portfolio-item img {
     border-radius: 6px;
     transition: 250ms;
     width: inherit;
-    height: inherit;
+    height: auto;
 }
 .portfolio-item img:hover {
     width: 350px;
-    height: 350px;
+    height: auto;
 }
 /*.portfolio-item::before {
     content: '';
